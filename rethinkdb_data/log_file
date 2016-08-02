@@ -1,0 +1,106 @@
+2016-07-31T22:34:16.031038000 0.011209s notice: Recursively removing directory /Users/gedwards/sites/3res/rethinkdb_data/tmp
+2016-07-31T22:34:16.031957000 0.012130s notice: Initializing directory /Users/gedwards/sites/3res/rethinkdb_data
+2016-07-31T22:34:16.032048000 0.012219s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/gedwards/sites/3res/rethinkdb_data' did not already exist or is empty.)
+2016-07-31T22:34:16.032067000 0.012238s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-31T22:34:16.037515000 0.017686s notice: Running on Darwin 15.5.0 x86_64
+2016-07-31T22:34:16.037543000 0.017713s notice: Loading data from directory /Users/gedwards/sites/3res/rethinkdb_data
+2016-07-31T22:34:16.175671000 0.155841s info: Automatically using cache size of 1017 MB
+2016-07-31T22:34:16.176668000 0.156838s notice: Listening for intracluster connections on port 29015
+2016-07-31T22:34:16.178218000 0.158389s notice: Listening for client driver connections on port 28015
+2016-07-31T22:34:16.203918000 0.184089s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2016-07-31T22:34:43.947103000 0.006830s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-07-31T22:34:43.951102000 0.010825s notice: Running on Darwin 15.5.0 x86_64
+2016-07-31T22:34:43.951153000 0.010876s notice: Loading data from directory /Users/gedwards/sites/3res/rethinkdb_data
+2016-07-31T22:34:43.994519000 0.054243s info: Automatically using cache size of 1108 MB
+2016-07-31T22:34:43.995497000 0.055220s notice: Listening for intracluster connections on port 29015
+2016-07-31T22:34:43.996787000 0.056510s notice: Listening for client driver connections on port 28015
+2016-07-31T22:34:43.996883000 0.056606s notice: Listening for administrative HTTP connections on port 8080
+2016-07-31T22:34:43.996884000 0.056607s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-07-31T22:34:43.996886000 0.056609s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-07-31T22:34:43.996888000 0.056611s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-07-31T22:34:43.996891000 0.056614s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-07-31T22:34:43.996894000 0.056617s notice: Server ready, "gedwards_home_4si" 1117aa63-60a7-4754-b0b3-1e047fb86be3
+2016-07-31T22:35:44.039321000 60.101450s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: Starting a new Raft election for term 1.
+2016-07-31T22:35:44.039626000 60.101754s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: Added replica on this server.
+2016-07-31T22:35:44.061138000 60.123267s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: This server is Raft leader for term 1. Latest log index is 0.
+2016-08-01T00:25:05.082824000 6620.178100s notice: Server got SIGINT from pid 1361, uid 270990715; shutting down...
+2016-08-01T00:25:05.083393000 6620.178668s notice: Shutting down client connections...
+2016-08-01T00:25:05.086397000 6620.181673s notice: All client connections closed.
+2016-08-01T00:25:05.086428000 6620.181704s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-01T00:25:05.089334000 6620.184610s notice: Storage engine shut down.
+2016-08-01T00:25:06.586061000 0.006990s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-01T00:25:06.591191000 0.012119s notice: Running on Darwin 15.5.0 x86_64
+2016-08-01T00:25:06.591225000 0.012151s notice: Loading data from directory /Users/gedwards/sites/3res/rethinkdb_data
+2016-08-01T00:25:06.640244000 0.061171s info: Automatically using cache size of 513 MB
+2016-08-01T00:25:06.641329000 0.062255s notice: Listening for intracluster connections on port 29015
+2016-08-01T00:25:06.654903000 0.075830s notice: Listening for client driver connections on port 28015
+2016-08-01T00:25:06.655062000 0.075988s notice: Listening for administrative HTTP connections on port 8080
+2016-08-01T00:25:06.655063000 0.075989s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-01T00:25:06.655065000 0.075991s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-01T00:25:06.655066000 0.075993s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-01T00:25:06.655074000 0.076000s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-01T00:25:06.655076000 0.076002s notice: Server ready, "gedwards_home_4si" 1117aa63-60a7-4754-b0b3-1e047fb86be3
+2016-08-01T00:25:08.337538000 1.758534s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: Starting a new Raft election for term 2.
+2016-08-01T00:25:08.366599000 1.787595s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: This server is Raft leader for term 2. Latest log index is 2.
+2016-08-01T00:26:14.259865000 67.683349s notice: Server got SIGINT from pid 1361, uid 270990715; shutting down...
+2016-08-01T00:26:14.260343000 67.683826s notice: Shutting down client connections...
+2016-08-01T00:26:14.260632000 67.684115s notice: All client connections closed.
+2016-08-01T00:26:14.260641000 67.684124s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-01T00:26:14.262546000 67.686030s notice: Storage engine shut down.
+2016-08-01T00:36:24.744068000 0.016892s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-01T00:36:24.747766000 0.020588s notice: Running on Darwin 15.5.0 x86_64
+2016-08-01T00:36:24.747811000 0.020632s notice: Loading data from directory /Users/gedwards/sites/3res/rethinkdb_data
+2016-08-01T00:36:24.792008000 0.064829s info: Automatically using cache size of 3514 MB
+2016-08-01T00:36:24.792940000 0.065762s notice: Listening for intracluster connections on port 29015
+2016-08-01T00:36:24.806880000 0.079702s notice: Listening for client driver connections on port 28015
+2016-08-01T00:36:24.806994000 0.079816s notice: Listening for administrative HTTP connections on port 8080
+2016-08-01T00:36:24.806996000 0.079817s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-01T00:36:24.806997000 0.079819s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-01T00:36:24.806999000 0.079820s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-01T00:36:24.807045000 0.079866s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-01T00:36:24.807046000 0.079867s notice: Server ready, "gedwards_home_4si" 1117aa63-60a7-4754-b0b3-1e047fb86be3
+2016-08-01T00:36:25.949472000 1.222368s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: Starting a new Raft election for term 3.
+2016-08-01T00:36:25.974312000 1.247208s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: This server is Raft leader for term 3. Latest log index is 5.
+2016-08-01T01:03:35.552905000 1630.943463s notice: Server got SIGINT from pid 1544, uid 270990715; shutting down...
+2016-08-01T01:03:35.553164000 1630.943721s notice: Shutting down client connections...
+2016-08-01T01:03:35.556895000 1630.947453s notice: All client connections closed.
+2016-08-01T01:03:35.556912000 1630.947470s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-01T01:03:35.560149000 1630.950706s notice: Storage engine shut down.
+2016-08-01T01:03:41.172217000 0.006429s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-01T01:03:41.176025000 0.010234s notice: Running on Darwin 15.5.0 x86_64
+2016-08-01T01:03:41.176068000 0.010277s notice: Loading data from directory /Users/gedwards/sites/3res/rethinkdb_data
+2016-08-01T01:03:41.211824000 0.046034s info: Automatically using cache size of 3517 MB
+2016-08-01T01:03:41.212684000 0.046893s notice: Listening for intracluster connections on port 29015
+2016-08-01T01:03:41.223833000 0.058042s notice: Listening for client driver connections on port 28015
+2016-08-01T01:03:41.224005000 0.058214s notice: Listening for administrative HTTP connections on port 8080
+2016-08-01T01:03:41.224016000 0.058225s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-01T01:03:41.224019000 0.058228s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-01T01:03:41.224021000 0.058230s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-01T01:03:41.224022000 0.058231s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-01T01:03:41.224031000 0.058240s notice: Server ready, "gedwards_home_4si" 1117aa63-60a7-4754-b0b3-1e047fb86be3
+2016-08-01T01:03:42.868294000 1.702653s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: Starting a new Raft election for term 4.
+2016-08-01T01:03:42.892390000 1.726750s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: This server is Raft leader for term 4. Latest log index is 8.
+2016-08-01T01:14:00.630855000 619.509799s notice: Server got SIGINT from pid 1544, uid 270990715; shutting down...
+2016-08-01T01:14:00.631031000 619.509974s notice: Shutting down client connections...
+2016-08-01T01:14:00.631124000 619.510067s notice: All client connections closed.
+2016-08-01T01:14:00.631129000 619.510072s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-01T01:14:00.633270000 619.512213s notice: Storage engine shut down.
+2016-08-01T18:46:58.874350000 0.017788s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-08-01T18:46:58.878531000 0.021967s notice: Running on Darwin 15.5.0 x86_64
+2016-08-01T18:46:58.878558000 0.021993s notice: Loading data from directory /Users/gedwards/sites/3res/rethinkdb_data
+2016-08-01T18:46:58.914340000 0.057776s info: Automatically using cache size of 389 MB
+2016-08-01T18:46:58.915492000 0.058927s notice: Listening for intracluster connections on port 29015
+2016-08-01T18:46:58.933052000 0.076487s notice: Listening for client driver connections on port 28015
+2016-08-01T18:46:58.933148000 0.076583s notice: Listening for administrative HTTP connections on port 8080
+2016-08-01T18:46:58.933149000 0.076585s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-08-01T18:46:58.933151000 0.076586s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-08-01T18:46:58.933152000 0.076587s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-08-01T18:46:58.933220000 0.076655s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-08-01T18:46:58.933222000 0.076657s notice: Server ready, "gedwards_home_4si" 1117aa63-60a7-4754-b0b3-1e047fb86be3
+2016-08-01T18:47:00.064945000 1.208449s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: Starting a new Raft election for term 5.
+2016-08-01T18:47:00.089394000 1.232898s info: Table 7cc16589-6447-48f1-bfff-60c97c773d45: This server is Raft leader for term 5. Latest log index is 11.
+2016-08-01T22:10:13.954909000 10486.619404s notice: Server got SIGINT from pid 1544, uid 270990715; shutting down...
+2016-08-01T22:10:13.955162000 10486.619656s notice: Shutting down client connections...
+2016-08-01T22:10:13.955233000 10486.619727s notice: All client connections closed.
+2016-08-01T22:10:13.955236000 10486.619730s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-08-01T22:10:13.960409000 10486.624903s notice: Storage engine shut down.
